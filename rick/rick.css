@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*-------------------HEADER------------------------------------*/
+.vaisseau {
+  width: 100%;
+  height: auto;
+}
+
+.bout {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 4rem;
+}
+
+/*------------------------BOUTON 1-------------------------------*/
+.button1 {
+  width: 10rem;
+  height: 10rem;
+  cursor: pointer;
+}
+
+.button1:hover {
+  scale: 1.2;
+  transition-duration: 1s;
+}
+
+/************************BOUTON 2 -------------------------------*/
+
+.button2 {
+  width: 10rem;
+  height: 10rem;
+  cursor: pointer;
+}
+
+.button2:hover {
+  scale: 1.2;
+  transition-duration: 1s;
+}
+/*-------------------------------BOUTON 3-----------------------------------*/
+
+.button3 {
+  width: 10rem;
+  height: 10rem;
+  cursor: pointer;
+}
+
+.button3:hover {
+  scale: 1.2;
+  transition-duration: 1s;
+}
+/*----------------------------------BOUTON 4-----------------------------*/
+.button4 {
+  height: 10rem;
+  cursor: pointer;
+}
+
+.button4:hover {
+  scale: 1.2;
+  transition-duration: 1s;
+}
+
+.container {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/*------------------------------CARTE-------------------------------*/
+
+.imagebox {
+  cursor: pointer;
+  height: 455px;
+  border: 5px solid rgb(102, 102, 102);
+  border-radius: 1rem;
+  background-color: rgb(41, 44, 39);
+  position: relative;
+}
+
+.imagebox:hover {
+  scale: 1.2;
+  transition-duration: 1s;
+}
+
+.image {
+  border-radius: 1rem;
+}
+
+.name {
+  padding-bottom: 1rem;
+  max-width: 300px;
+  font-size: 30px;
+  text-align: center;
+  color: #92fb07;
+  font-family: "Schwifty", sans-serif;
+  /* overflow: hidden;
+  word-wrap: break-word; */
+}
+
+.espece {
+  font-size: 20px;
+  text-align: center;
+  color: #92fb07;
+  /* position: absolute;
+  bottom: 13%;
+  left: 40%; */
+  font-family: "Alfa Slab One", display;
+  font-weight: bold;
+}
+
+.genre {
+  text-align: start;
+  color: #92fb07;
+  padding-left: 1rem;
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  font-family: "Alfa Slab One", display;
+  font-weight: bold;
+}
+
+.statut {
+  text-align: end;
+  color: #92fb07;
+  padding-right: 1rem;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-family: "Alfa Slab One", display;
+  font-weight: bold;
+}
+
+.duo {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.boss {
+  background-color: rgb(0, 0, 0);
+}
+
+.quatuor {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3rem;
+}
+
+.foot {
+  width: 201.4vh;
+}
