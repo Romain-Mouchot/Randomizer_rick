@@ -13,3 +13,7 @@ HTML
 CSS
 JavaScript
 Rick and Morty API: Used to fetch character data.
+
+
+Website link:
+https://rick-and-morty-randomizer0.netlify.app/
